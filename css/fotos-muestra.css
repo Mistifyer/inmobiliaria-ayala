@@ -1,0 +1,22 @@
+.fm__inmueble {
+    min-width: auto;
+
+    border-color: #FFD966;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+@media screen and (min-width: 660px) { 
+    .fm__inmuebles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fm__inmueble {
+        max-width: 33.33%;
+    }    
+}
+@media screen and (min-width: 820px) { 
+}
+@media screen and (min-width: 1024px) {
+}

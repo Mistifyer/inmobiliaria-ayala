@@ -1,0 +1,57 @@
+.banner {
+   font-family: 'Noto Serif', serif;
+
+   max-width: 1024px;
+   margin: auto;
+   margin-bottom: 1px;
+
+   position: relative;
+   z-index: -100;
+
+   background-image: url(../../public/images/banner.png);
+   background-size: cover;
+   background-position: center center;
+   height: 50vh;
+ }
+
+ .banner__p4 {
+   font-size: 35px;
+   color: #D9D9D9;
+   margin-left: 50px;
+ }
+  .banner__p5 {
+   font-size: 35px;
+   color: #E6CEA3;
+   margin-left: 00px;
+ }
+ .banner__p6 {
+   font-size: 35px;
+   color: #E6CEA3;
+   margin-left: 50px;
+ }
+
+
+ .banner .container {
+   position: absolute;
+   bottom: 0%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   width: 100%;
+ }
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+
+@media screen and (min-width: 660px) { 
+
+}
+
+@media screen and (min-width: 820px) { 
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+@media screen and (min-width: 1280px) {
+    
+}

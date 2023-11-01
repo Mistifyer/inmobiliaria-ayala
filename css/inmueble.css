@@ -1,0 +1,127 @@
+inmueble {
+}
+.inmueble__img {
+    min-width: 100%;
+    
+    border-color: #FFD966;
+    border-width: 1px;
+    border-style: solid;
+}
+.inmueble__derecho {
+    padding: 30px;
+}
+.titulo__inmueble {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6C614D;
+}
+.direccion__inmueble {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFD966;
+}
+.precio__inmueble {
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #6C614D;
+    margin: 10px 0 10px 0;
+}
+.descripcion__inmueble {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: #6C614D;
+    margin: 10px 0 10px 0;
+}
+.caracteristicas__inmueble {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: #6C614D;
+    margin: 10px 0 10px 40px;
+}
+.caracteristicas__inmueble ul li::marker {
+    content: '۞   ';
+}
+.iconos__inmuebles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.icono__inmuebles {
+    width: 70px;
+    align-items: center;
+    margin: auto;
+}
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+@media screen and (min-width: 660px) { 
+    .caracteristicas__inmueble {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .lista__inm__izq {
+        width: 50%;
+    }
+    .icono__inmuebles {
+        width: 100px;
+        align-items: center;
+        margin: auto;
+    }    
+}
+@media screen and (min-width: 820px) { 
+    .inmueble {
+        display: flex;
+    
+    }
+    .inmueble__izquierdo{
+        width: 50%;
+    }
+    .inmueble__derecho {
+        width: 50%;
+        padding: 20px;
+    }
+    .titulo__inmueble {
+        font-size: 16px;
+    }
+    .direccion__inmueble {
+        font-size: 13px;
+    }
+    .precio__inmueble {
+        font-size: 20px;
+    }
+    .descripcion__inmueble {
+        font-size: 14px;
+    }
+    .caracteristicas__inmueble {
+        font-size: 12px;
+    }
+    .icono__inmuebles {
+        width: 70px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .titulo__inmueble {
+        font-size: 18px;
+    }
+    .direccion__inmueble {
+        font-size: 15px;
+    }
+    .precio__inmueble {
+        font-size: 25px;
+    }
+    .descripcion__inmueble {
+        font-size: 16px;
+    }
+    .caracteristicas__inmueble {
+        font-size: 15px;
+    }
+    .icono__inmuebles {
+        width: 90px;
+    }
+}
+
